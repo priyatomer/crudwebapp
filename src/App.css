@@ -1,10 +1,63 @@
-.App {
-  text-align: center;
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul li a{
+  color:#fff;
+  padding: 5px;
+  text-decoration: none;
+}
+.nav-ul{
+  padding: 7px;
+  margin: 0;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.product{
+  margin-left: 30%;
+}
+.inputBox{
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  width: 300px;
+  margin: 20px;
+}
+.addButton{
+  margin: 20px;
+  width: 150px;
+  padding: 10px;
+  border: solid 1px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.productList ul li{
+display: inline-block;
+border: 1px solid skyblue;
+padding: 25px;
+width: 150px;
+}
+.productList{
+text-align: center;
+margin-top: 50px;
+}
+.productList ul{
+  margin: 0px;
+  }
+.updatetext{
+margin-left: 20px; 
+ }
+.invalidInput{
+  color:red;
+  display: block;
+  margin-top: -20px;
+  margin-left: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
